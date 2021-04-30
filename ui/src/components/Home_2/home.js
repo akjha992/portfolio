@@ -1,8 +1,9 @@
 import React from 'react';
 import ScrollSnap from 'scroll-snap'
 import Header from './Header/header';
-import Headline from './Header/headline';
-import ProjectsPage from './Header/projects';
+import Headline from './Headline/headline';
+import ProjectsPage from './Project/projects';
+import base_img from './images/base.svg';
 function callback() {
     console.log('snapped')
 }
@@ -25,6 +26,9 @@ class Home extends React.Component {
     render() {
         return (
             <div>
+                <div className="container">
+                    <img style={{width:'100%',opacity:'0.05'}} className='position-absolute top-50 start-50 translate-middle d-none d-md-block' alt='avatar' src={base_img} />
+                </div>
                 <Header />
                 <div id="container" ref={this.container}>
                     <div className="page">

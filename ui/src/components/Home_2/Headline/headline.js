@@ -1,6 +1,4 @@
 import React from 'react';
-import avatar from './images/avatar-1.png';
-import base_img from './images/base.svg';
 class Headline extends React.Component {
     constructor(props) {
         super(props);
@@ -19,7 +17,7 @@ class Headline extends React.Component {
                 </div>
                 <div className='row mt-md-5'></div>
                 <div className='row mt-4 mt-lg-5'>
-                    <img style={{width:'200px', height:'200px'}} className='mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
+                    <img style={{width:'200px', height:'200px'}} className='shadow-lg mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
                 </div>
                 <div className='row mt-2'>
                     <h3 className='d-block text-center'>{this.props.profile.displayName}</h3>
@@ -30,7 +28,7 @@ class Headline extends React.Component {
                 {/* <div className='row mt-md-4'></div>
                 <div className='row mt-md-5'></div>
                 <div className='mb-4 mt-5' style={{zIndex:-10}}>
-                    <img style={{width:'600px'}} className='d-none d-md-block mx-auto' alt='avatar' src={base_img} />
+                    
                 </div> */}
             </div>
         );
