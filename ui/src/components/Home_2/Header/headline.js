@@ -8,6 +8,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="container">
+                <div className='row mt-5'></div>
                 <div className='row mt-5'>
                     <h1 className='d-none d-md-block text-center'>{this.props.profile.headline}</h1>
                     <h5 className='d-md-none d-block text-center'>{this.props.profile.headline}</h5>
@@ -23,11 +24,10 @@ class Home extends React.Component {
                 <div className='row mt-2'>
                     <h3 className='d-block text-center'>{this.props.profile.displayName}</h3>
                     <p className='d-block text-center'>
-                        {this.props.profile.companies&&this.props.profile.companies.length>0&&`${this.props.profile.companies[0].title} `}
-                        {this.props.profile.companies&&this.props.profile.companies.map((cp,ind)=>(<span><a target='_blank' href={cp.link}>{cp.companyName}</a> {ind<this.props.profile.companies.length-1?' | Ex ':'' }</span>))}
+                    {this.props.profile.title}
                     </p>
                 </div>
-                <div className='row mt-md-5'></div>
+                <div className='row mt-md-4'></div>
                 <div className='row mt-md-5'></div>
                 <div className='mb-4 mt-5' style={{zIndex:-10}}>
                     <img style={{width:'600px'}} className='d-none d-md-block mx-auto' alt='avatar' src={base_img} />

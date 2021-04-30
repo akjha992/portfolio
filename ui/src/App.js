@@ -7,18 +7,8 @@ function App() {
     subheader: 'I am a full stack developer who specializes in Javascript technologies',
     displayImage,
     displayName: 'Ashish Jha',
-    companies: [
-      // {
-      //   title: 'Software Developer',
-      //   companyName: 'Microsoft',
-      //   link: 'https://www.microsoft.com/'
-      // },
-      {
-        title: 'Software Developer',
-        companyName: 'Goldman Sachs',
-        link: 'https://www.goldmansachs.com/'
-      }
-    ]
+    title: `Software Developer - Goldman Sachs`
+    // title: `Software Developer - Microsoft | Ex - Goldman Sachs`
   }
   return (
     <div className="App">
