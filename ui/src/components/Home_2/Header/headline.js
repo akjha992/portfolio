@@ -27,11 +27,11 @@ class Headline extends React.Component {
                     {this.props.profile.title}
                     </p>
                 </div>
-                <div className='row mt-md-4'></div>
+                {/* <div className='row mt-md-4'></div>
                 <div className='row mt-md-5'></div>
                 <div className='mb-4 mt-5' style={{zIndex:-10}}>
                     <img style={{width:'600px'}} className='d-none d-md-block mx-auto' alt='avatar' src={base_img} />
-                </div>
+                </div> */}
             </div>
         );
     }
