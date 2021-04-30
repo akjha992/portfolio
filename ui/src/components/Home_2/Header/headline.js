@@ -18,7 +18,7 @@ class Home extends React.Component {
                 </div>
                 <div className='row mt-md-5'></div>
                 <div className='row mt-4 mt-lg-5'>
-                    <img style={{width:'200px'}} className='mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
+                    <img style={{width:'200px', height:'200px'}} className='mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
                 </div>
                 <div className='row mt-2'>
                     <h3 className='d-block text-center'>{this.props.profile.displayName}</h3>
