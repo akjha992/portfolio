@@ -16,9 +16,9 @@ class Home extends React.Component {
                     <h5 className='d-none d-md-block text-center'>{this.props.profile.subheader}</h5>
                     <p className='d-md-none d-block text-center'>{this.props.profile.subheader}</p>
                 </div>
-                <div className='row mt-lg-5'/>
+                <div className='row mt-md-5'></div>
                 <div className='row mt-4 mt-lg-5'>
-                    <img style={{width:'250px'}} className='mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
+                    <img style={{width:'200px'}} className='mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
                 </div>
                 <div className='row mt-2'>
                     <h3 className='d-block text-center'>{this.props.profile.displayName}</h3>
@@ -27,10 +27,10 @@ class Home extends React.Component {
                         {this.props.profile.companies&&this.props.profile.companies.map((cp,ind)=>(<span><a target='_blank' href={cp.link}>{cp.companyName}</a> {ind<this.props.profile.companies.length-1?' | Ex ':'' }</span>))}
                     </p>
                 </div>
-                <div className='position-absolute fixed-bottom mb-4' style={{zIndex:-10}}>
-                    <img style={{width:'500px'}} className='d-none d-lg-none d-md-block mx-auto' alt='avatar' src={base_img} />
-                    <img style={{width:'600px'}} className='d-none d-lg-block mx-auto' alt='avatar' src={base_img} />
-                    <img style={{width:'300px'}} className='d-md-none d-block mx-auto' alt='avatar' src={base_img} />
+                <div className='row mt-md-5'></div>
+                <div className='row mt-md-5'></div>
+                <div className='mb-4 mt-5' style={{zIndex:-10}}>
+                    <img style={{width:'600px'}} className='d-none d-md-block mx-auto' alt='avatar' src={base_img} />
                 </div>
             </div>
         );
