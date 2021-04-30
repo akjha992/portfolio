@@ -16,7 +16,7 @@ class Home extends React.Component {
                     <h5 className='d-none d-md-block text-center'>{this.props.profile.subheader}</h5>
                     <p className='d-md-none d-block text-center'>{this.props.profile.subheader}</p>
                 </div>
-                <div className='row mt-5'/>
+                <div className='row mt-lg-5'/>
                 <div className='row mt-4 mt-lg-5'>
                     <img style={{width:'250px'}} className='mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
                 </div>
