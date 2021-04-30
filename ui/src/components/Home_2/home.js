@@ -2,6 +2,7 @@ import React from 'react';
 import ScrollSnap from 'scroll-snap'
 import Header from './Header/header';
 import Headline from './Header/headline';
+import ProjectsPage from './Header/projects';
 function callback() {
     console.log('snapped')
 }
@@ -27,25 +28,10 @@ class Home extends React.Component {
                 <Header />
                 <div id="container" ref={this.container}>
                     <div className="page">
-                        <Headline className="page" profile={this.props.profile} />
+                        <Headline className="page" profile={this.props.data.home} />
                     </div>
                     <div className="page">
-                        <Headline className="page" profile={this.props.profile} />
-                    </div>
-                    <div className="page">
-                        <Headline className="page" profile={this.props.profile} />
-                    </div>
-                    <div className="page">
-                        <Headline className="page" profile={this.props.profile} />
-                    </div>
-                    <div className="page">
-                        <Headline className="page" profile={this.props.profile} />
-                    </div>
-                    <div className="page">
-                        <Headline className="page" profile={this.props.profile} />
-                    </div>
-                    <div className="page">
-                        <Headline className="page" profile={this.props.profile} />
+                        <ProjectsPage className="page" projects={this.props.data.projects} />
                     </div>
                 </div>
             </div>

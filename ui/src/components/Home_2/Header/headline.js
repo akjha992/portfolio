@@ -1,7 +1,7 @@
 import React from 'react';
 import avatar from './images/avatar-1.png';
 import base_img from './images/base.svg';
-class Home extends React.Component {
+class Headline extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -36,4 +36,4 @@ class Home extends React.Component {
         );
     }
 }
-export default Home;
+export default Headline;

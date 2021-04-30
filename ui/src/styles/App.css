@@ -24,13 +24,18 @@ html,body,#root,.App{
     height:100vh;
     min-height:100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    /* border-top: 1px solid rgb(137, 22, 214);
-    border-bottom: 1px solid rgb(137, 22, 214); */
+    /* background-color: gray; */
     color: #000;
   }
+  .projects{
+      color:white;
+  }
+  .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
