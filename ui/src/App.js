@@ -14,14 +14,14 @@ function App() {
     },
     projects: [
       {
-        title: 'Q-TV Movie Streaming',
-        description: 'A web application to stream popular movies and tv series scraped from online free sources.',
-        posterImage: p2
-      },
-      {
         title: 'C++ Code Compare',
         description: 'A web application to regressively compare two c++ programs until they produce different output.',
         posterImage: p1
+      },
+      {
+        title: 'Q-TV Movie Streaming',
+        description: 'A web application to stream popular movies and tv series scraped from online free sources.',
+        posterImage: p2
       },
     ]
     // title: `Software Developer - Microsoft | Ex - Goldman Sachs`

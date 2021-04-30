@@ -19,9 +19,9 @@ class Headline extends React.Component {
                 <div className='row mt-4 mt-lg-5'>
                     <img style={{width:'200px', height:'200px'}} className='shadow-lg mx-auto img-thumbnail rounded-circle' alt='avatar' src={this.props.profile.displayImage} />
                 </div>
-                <div className='row mt-2'>
+                <div className='row mt-3'>
                     <h3 className='d-block text-center'>{this.props.profile.displayName}</h3>
-                    <p className='d-block text-center'>
+                    <p className='d-block text-center text-info fw-bold'>
                     {this.props.profile.title}
                     </p>
                 </div>
