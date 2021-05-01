@@ -27,7 +27,7 @@ function App() {
       },
       {
         title: 'Assest Management System (ASP.NET, MYSQL)',
-        description: 'A web application to automate the workflow involved in asset management project is an effort to automate the process and reduce these human-errors. ',
+        description: 'A web application to automate the workflow involved in asset management in a college. ',
         posterImage: p3
       },
     ]
