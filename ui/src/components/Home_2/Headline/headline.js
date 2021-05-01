@@ -6,7 +6,6 @@ class Headline extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className='row mt-5'></div>
                 <div className='row mt-5'>
                     <h1 className='d-none d-md-block text-center'>{this.props.profile.headline}</h1>
                     <h5 className='d-md-none d-block text-center'>{this.props.profile.headline}</h5>

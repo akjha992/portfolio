@@ -12,9 +12,9 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <div className="container">
+                {/* <div className="container">
                     <img style={{width:'100%',opacity:'0.08'}} className='position-absolute top-50 start-50 translate-middle d-none d-md-block' alt='avatar' src={base_img} />
-                </div>
+                </div> */}
                 <Header />
                 <div id="container">
                     <div className="page">
