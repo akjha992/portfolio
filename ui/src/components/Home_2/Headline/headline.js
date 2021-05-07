@@ -18,7 +18,7 @@ class Headline extends React.Component {
                 </div>
 
                 <div className='row mt-md-5'>
-                    <a className='text-decoration-none text-center ' target="popup" href='mailto:akjha992@gmail.com'>
+                    <a className='text-decoration-none text-center ' target="popup" href='https://github.com/akjha992/portfolio/raw/main/ui/resume/0_Ashish_Jha_CV.pdf'>
                         <img style={{ height: '50px' }} className='' src={download_cv} /> Download Resume
                     </a>
                 </div>
