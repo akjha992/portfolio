@@ -5,28 +5,30 @@ html,body,#root,.App{
 *{
     box-sizing: border-box;
 }
+
 h1,h2,h3,h4{
     font-family: 'Orelega One', sans-serif !important;
 }
 #container {
-    overflow-y: scroll;
+    /* overflow-y: scroll;
     height:100vh;
     min-height:768px;
     top: 0;
     left: 0;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(30vh);
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory; */
   }
   .page {
-    display: flex;
+    min-height:100vh;
+    /* display: flex;
     position: relative;
     width: 100%;
     box-sizing: border-box;
     color: #000;
     height: 100%;
   scroll-snap-align: start;
-  position: relative;
+  position: relative; */
   }
   .projects{
       color:white;

@@ -6,7 +6,7 @@ import p2 from './images/projects/qtv.png';
 import p3 from './images/projects/ams.png';
 function App() {
   const data = {
-    home:{
+    home: {
       headline: 'Software Developer, Problem Solver & Mentor',
       subheader: 'I am a full stack developer who specializes in Javascript technologies',
       displayImage,
@@ -34,7 +34,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Home data={data}/>
+      <Home data={data} />
     </div>
   );
 }
